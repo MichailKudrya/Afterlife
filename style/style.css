@@ -12,7 +12,7 @@ html,
 body {
     height: 100%;
     background: url(../img/cyber-background.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 form {
@@ -22,11 +22,13 @@ form {
     flex-direction: column;
     margin-inline: auto;
     margin-top: 200px;
+    padding-bottom: 40px;
     max-width: 900px;
     background-color: #01012b;
 }
 h1 {
     font-family: 'Caveat', cursive;
+    font-size: 70px;
     text-align: center;
     color: #05d9e8;
 }
@@ -43,7 +45,7 @@ h1 {
 span {
     display: block;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 150%;
     letter-spacing: 0.01em;
     color: #6F7482;
@@ -54,6 +56,7 @@ input {
     max-width: 250px;
     width: 100%;
     border-radius: 4px;
+    font-size: 20px;
     letter-spacing: 0.01em;
     padding: 12px;
     color: #3B4256;
@@ -63,4 +66,16 @@ input {
 }
 input::placeholder {
     color: #B8BCCA;
+}
+select {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    padding: 12px;
+    color: #3B4256;
+    background-color: #01012b;
+    border: 1px solid #ff2a6d;
+    outline: none;
 }
