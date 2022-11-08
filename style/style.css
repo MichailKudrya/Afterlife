@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    border-color: #ff2a6d;
+}
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background: url(../img/cyber-background.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+form {
+    border: 1px solid #ff2a6d;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-top: 200px;
+    max-width: 900px;
+    background-color: #01012b;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #05d9e8;
+}
+.field {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    max-width: 400px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+span {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #6F7482;
+    margin-bottom: 2px;
+}
+
+input {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 4px;
+    letter-spacing: 0.01em;
+    padding: 12px;
+    color: #3B4256;
+    background-color: #01012b;
+    border: 1px solid #ff2a6d;
+    outline: none;
+}
+input::placeholder {
+    color: #B8BCCA;
+}
