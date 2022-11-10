@@ -32,7 +32,7 @@ h1 {
     text-align: center;
     color: #05d9e8;
 }
-.field {
+.field, .btn__btn {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ select {
     max-width: 400px;
     justify-content: center;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .checkbox__span {
     display: inline-block;
@@ -119,4 +119,25 @@ select {
 }
 .checkbox input:checked~.checkbox__box>.checkbox__icon{
     display: inline-block;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn__btn {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 20px 65px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #01012b;
+    background: #ff2a6d;
+    transition: .4s all ease-in-out;
+}
+button:hover {
+    transform: translateY(-10px);
+    background: #05d9e8;
+    color: #01012b;
 }
