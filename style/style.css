@@ -94,6 +94,7 @@ select {
     display: inline-block;
     font-size: 35px;
     font-family: 'Caveat', cursive;
+    text-shadow: 3px 5px 5px #05d9e8;
 }
 .checkbox input {
     display: none;
