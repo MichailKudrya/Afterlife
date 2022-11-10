@@ -92,7 +92,8 @@ select {
 }
 .checkbox__span {
     display: inline-block;
-    font-size: 22px;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
 }
 .checkbox input {
     display: none;
@@ -141,3 +142,9 @@ button:hover {
     background: #05d9e8;
     color: #01012b;
 }
+@media (max-width:900px) {
+    form {
+        margin: 15px;
+    }
+    
+}m
